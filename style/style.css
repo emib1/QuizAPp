@@ -1,0 +1,105 @@
+/**********************General****************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body{
+        padding: 0;
+        margin: 0;    
+        width:100vw;
+        height: 100vh;   
+        font-family: 'Montserrat', sans-serif;
+        background-color:#009688;
+
+}
+.panel{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+/*********************** Question****************************/
+ .question-container{
+        margin: 1em;
+        padding: 0.5em;
+        width: 70vw;
+        height: 10vh;
+        background-color: #c7dddf;
+        font-size: x-large;
+        text-align: center;
+        border-radius: 0.5em;
+}
+
+.result{
+        margin: 1em;
+        padding: 0.5em;
+        width:80vw;
+        height: 10vh;
+        text-align: center;
+        font-size: 3em;
+}
+
+/*********************** options*****************************/
+
+
+.option-container{
+        display: flex;
+        justify-content: space-around; 
+        margin: 1em;
+        padding: 2em;
+        width: 80vw;
+        height: 20vh;
+        background-color: #c7dddf;   
+        border-radius: 0.5em;
+            
+}
+
+.option{    
+        padding: 1em;
+        width: 15vw;
+        height: 10vh;
+        font-size: larger;
+        background-color:#50DBB4;
+        border-radius: 0.5em;       
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        word-wrap: break-word;
+
+
+ }
+
+   
+.option:hover{
+        background-color: lightgoldenrodyellow;
+    }
+
+/*****************Nvigations and buttons*********************/
+.navigation{
+        width: 80vw;
+        height: 10vh;
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+ }
+      
+.evaluate,.next{
+        width:30vw;
+        height: 8vh;
+        padding: 5px;
+        font-size: larger;
+        cursor: pointer;
+        background-color: #50DBB4;
+        border-radius: 0.5em;
+        font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.evaluate:hover, .next:hover{
+    background-color: #fff;
+}
+
+
+
